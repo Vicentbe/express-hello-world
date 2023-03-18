@@ -51,6 +51,34 @@ const html = `
     </style>
   </head>
   <body>
+  // add navidation bar
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  home
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  close navbar
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  about
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      test1
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+      test2
+        <a class="nav-link" href="#">Link</a>
+      </li> 
+      <li class="nav-item dropdown">
+      test3 
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+      </li>
+    </ul>
+  </div>
+  </nav>
     <section>
       Hello from Vicenteeee3333!
     </section>
